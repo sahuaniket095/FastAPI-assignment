@@ -1,8 +1,12 @@
-fastapi
-uvicorn
-sqlalchemy
-psycopg2-binary
-passlib
-bcrypt==4.0.1
-python-jose[cryptography]
-pydantic
+
+fastapi  # FastAPI framework for building APIs
+uvicorn  # ASGI server to run FastAPI applications
+
+sqlalchemy  # ORM for interacting with databases
+psycopg2-binary  # PostgreSQL adapter for Python
+
+passlib  # Password hashing library
+bcrypt==4.0.1  # Bcrypt hashing algorithm for securely storing passwords
+
+python-jose[cryptography]  # JWT authentication and encryption library
+pydantic  # Data validation and serialization for FastAPI
